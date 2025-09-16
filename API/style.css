@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    background-image: url('./back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #fdfdfd;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 8px #3508ffe0;
+    font-size: 4rem;
+    
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+#pageInput {
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px #000000a2;
+}
+
+#searchBtn {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5060f0;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#searchBtn:hover {
+    background-color: #27ae60;
+    box-shadow: 0 2px 8px #000000a2;
+    ;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    background: #474545db;
+    border-radius: 10px;
+    margin: 0 40px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    transition: all 200ms ease-in-out;
+    box-shadow: rgba(255, 255, 255, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.card img {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    transition: all 200ms ease-in-out;
+}
+
+.card img:hover{
+    transform: scale(1.2);
+}
+
+.card:hover {
+    box-shadow: rgba(161, 160, 160, 0.781) 0px -23px 25px 0px inset, rgba(169, 167, 167, 0.629) 0px -36px 30px 0px inset, rgba(154, 153, 153, 0.387) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.card:hover h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 8px #f78d41;
+}
+
+.card:hover img {
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: -30px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #dddddd93;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.card:hover p {
+    color: #dddddd;
+}
+
+.card strong {
+    color: #f5925c;
+    font-weight: bold;
+}
+
+.card div{
+    height: 60%;
+    background: rgb(232, 232, 232);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card section{
+    height: 50%;
+    padding-top: 5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
