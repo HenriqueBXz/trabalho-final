@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "descricao": "Ford maverick 1970",
+        "imagem": "../Dados/imagens/morango.jpg",
+        "preco": 20000
+    },
+    {
+        "id": 2,
+        "descricao": "Porsche gt3 RS",
+        "imagem": "../Dados/imagens/laranja.jpg",
+        "preco": 35000
+    },
+    {
+        "id": 3,
+        "descricao": "Honda civic type r",
+        "imagem": "../Dados/imagens/batata.avif",
+        "preco": 40000
+    },
+    {
+        "id": 4,
+        "descricao": "Ford GT 40",
+        "imagem": "../Dados/imagens/limao.jpg",
+        "preco": 10000
+    },
+    {
+        "id": 5,
+        "descricao": "Merceds AMG GT",
+        "imagem": "../Dados/imagens/mamao.jpg",
+        "preco": 16000
+    },
+    {
+        "id": 6,
+        "descricao": "Chevette",
+        "imagem": "../Dados/imagens/cereja.jpg",
+        "preco": 60000
+    },
+    {
+        "id": 7,
+        "descricao": "Fuscaa",
+        "imagem": "../Dados/imagens/banana.jpg",
+        "preco": 50000
+    },
+    {
+        "id": 8,
+        "descricao": "Voyage",
+        "imagem": "../Dados/imagens/kiwi.jpg",
+        "preco": 30000
+    },
+     {
+        "id": 9,
+        "descricao": "Bugatti divo",
+        "imagem": "../Dados/imagens/maracuja.jpg",
+        "preco": 53000
+    }
+]

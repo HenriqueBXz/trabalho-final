@@ -32,6 +32,12 @@ body{
 
 .menu a {
     text-decoration: none;
+    display: inline-block;
+    transition: trasnform 0.2s ease, color 0.2s ease;
+}
+
+.menu a:hover{
+    transform: scale(1.2);
 }
 
 .menu li a {
@@ -50,39 +56,18 @@ li:hover{
     color: #f22b56;
 }
 
-body{
-    background-image: url('./images/carro.jpeg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: auto;
-    overflow-x:hidden ;
-    padding: 120px 20px;
-}
+
 
 h1, h2{
-    color: #fff;
+    color: orange;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 5px;
 }
 
-.first{
-    background-color: #ddd;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: #ff4400c2 0px 6px 24px;
-    padding: 0px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 999;
-}
 
 .p{
-    color: #ddd;
+    color: orange;
 }
 
 #user, #idPerfil{
