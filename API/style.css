@@ -33,6 +33,12 @@ li:hover{
 
 .menu a {
     text-decoration: none;
+    transition: all 200ms ease-in-out;
+    display: inline-block;
+}
+
+.menu a:hover{
+    transform: scale(1.2);
 }
 
 .menu li a {
