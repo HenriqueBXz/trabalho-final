@@ -1,56 +1,63 @@
 [
     {
         "id": 1,
-        "descricao": "Ford maverick 1970",
-        "imagem": "../Dados/imagens/morango.jpg",
-        "preco": 20000
+        "descricao": "Madara",
+        "imagem": "../Dados/Images/madara.jfif",
+        "preco": 1000000
     },
     {
         "id": 2,
-        "descricao": "Porsche gt3 RS",
-        "imagem": "../Dados/imagens/laranja.jpg",
-        "preco": 35000
+        "descricao": "Batman",
+        "imagem": "../Dados/Images/batman.jfif",
+        "preco": 55000000
     },
     {
         "id": 3,
-        "descricao": "Honda civic type r",
-        "imagem": "../Dados/imagens/batata.avif",
-        "preco": 40000
+        "descricao": "Doom slayer",
+        "imagem": "../Dados/Images/doom.jfif",
+        "preco": 40000000
     },
     {
         "id": 4,
-        "descricao": "Ford GT 40",
-        "imagem": "../Dados/imagens/limao.jpg",
-        "preco": 10000
+        "descricao": "Escanor",
+        "imagem": "../Dados/Images/escanor.jfif",
+        "preco": 2000000
     },
     {
         "id": 5,
-        "descricao": "Merceds AMG GT",
-        "imagem": "../Dados/imagens/mamao.jpg",
-        "preco": 16000
+        "descricao": "Goku black",
+        "imagem": "../Dados/Images/goku preto.jfif",
+        "preco": 45000000
     },
     {
         "id": 6,
-        "descricao": "Chevette",
-        "imagem": "../Dados/imagens/cereja.jpg",
-        "preco": 60000
+        "descricao": "Kratos",
+        "imagem": "../Dados/Images/kratos.jfif",
+        "preco": 50000000
     },
     {
         "id": 7,
-        "descricao": "Fuscaa",
-        "imagem": "../Dados/imagens/banana.jpg",
-        "preco": 50000
+        "descricao": "Makita",
+        "imagem": "../Dados/Images/makita.jfif",
+        "preco": 38000000
     },
     {
         "id": 8,
-        "descricao": "Voyage",
-        "imagem": "../Dados/imagens/kiwi.jpg",
-        "preco": 30000
+        "descricao": "Master chief",
+        "imagem": "../Dados/Images/master.jfif",
+        "preco": 23000000
     },
-     {
+    {
         "id": 9,
-        "descricao": "Bugatti divo",
-        "imagem": "../Dados/imagens/maracuja.jpg",
-        "preco": 53000
+        "descricao": "Budda",
+        "imagem": "../Dados/Images/buda.jfif",
+        "preco": 20000000
+    },
+    {
+        "id": 10,
+        "descricao": "Monster branco",
+        "imagem": "../Dados/Images/monster.jfif",
+        "preco": 30000000
     }
+
 ]

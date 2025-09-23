@@ -58,21 +58,50 @@ li:hover{
 
 
 
-h1, h2{
-    color: orange;
-    font-weight: bolder;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url('./image/Dark-Anime-Desktop-Wallpaper-4K.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: auto;
+    overflow-x: hidden;
+    padding: 120px 20px;
+}
+
+h1, h2{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 5px;
 }
 
+.first{
+    background-color: rgb(108, 66, 100);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: #de58a4 0px 6px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
 
 .p{
-    color: orange;
+    color: aliceblue;
 }
 
 #user, #idPerfil{
-   color: #ff4400;
-   font-weight: bolder;
+    color: rgb(222, 90, 185);
+    font-weight: bolder;
 }
 
 .fa-cart-shopping{
@@ -82,20 +111,31 @@ h1, h2{
 }
 
 .fa-cart-shopping:hover{
-    color: #ff4400;
+    color: #de58a4;
     opacity: 1;
     cursor: pointer;
-    transform: rotate(360deg) scale(1.2);
+    transform: rotate(360deg);
 }
 
 .center{
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-.btn{
-   font-weight: bolder;
+.card{
+    background-color: rgba(175, 175, 175, 0.23);
+    border-radius: 25px;
+    border: 4px solid rgb(137, 22, 116);
+    padding: 0;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-title{
+    color: white;
 }

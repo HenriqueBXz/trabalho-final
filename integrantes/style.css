@@ -87,7 +87,8 @@ li:hover{
 }
 
 .pokemon-img {
-  width: 120px;
+  width: 160px;
+  border-radius: 10px;
 }
 
 .element-img {
