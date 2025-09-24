@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragon Ball API</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dragon Ball API</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-    <div class="topo">
-        <div class="titulo">
-            <span>Trabalho final</span>
-        </div>
-        <div>
-            <ul class="menu">
-                <li class="button"><a href="../home/">Home</a></li>
-                <li class="button"><a href="../API/">API</a></li>
-                <li class="button"><a href="../calculadora/">Calculadora</a></li>
-                <li class="button"><a href="../lista/">Lista</a></li>
-                <li class="button"><a href="../integrantes/">Integrantes</a></li>
-            </ul>
-
-    <h1>Dragon Ball - Personagens</h1>
-
-    <div class="search-box">
-        <input id="pageInput" type="number" min="1" placeholder="Digite uma página (1/6)">
-        <button id="searchBtn">Buscar</button>
+  <div class="topo">
+    <div class="titulo">
+      <span>Trabalho final</span>
     </div>
 
-    <div id="results" class="results"></div>
+    <button id="menu-toggle" class="menu-toggle">&#9776;</button>
 
-    <script src="script.js"></script>
+    <div>
+      <ul id="menu" class="menu">
+        <li class="button"><a href="../home/">Home</a></li>
+        <li class="button"><a href="../API/">API</a></li>
+        <li class="button"><a href="../calculadora/">Calculadora</a></li>
+        <li class="button"><a href="../lista/">Lista</a></li>
+        <li class="button"><a href="../integrantes/">Integrantes</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h1>Dragon Ball - Personagens</h1>
+
+  <div class="search-box">
+    <input id="pageInput" type="number" min="1" placeholder="Digite uma página (1/6)" />
+    <button id="searchBtn">Buscar</button>
+  </div>
+
+  <div id="results" class="results"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>

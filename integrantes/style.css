@@ -113,3 +113,74 @@ li:hover{
   margin: 5px 0;
   font-size: 14px;
 }
+
+.menu-toggle {
+    display: none; /* Esconde o botão em telas grandes */
+}
+
+/* 🔹 Menu sempre visível em telas grandes */
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .title1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    width: auto ;
+    color: #d55d63;
+    font-family: "Archivo Black", sans-serif;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 32px; /* Aumenta o tamanho do ícone */
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #2c6b74; /* Azul petróleo da paleta */
+        padding: 10px;
+        margin: 10px;
+        align-self: flex-end;
+    }
+
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        background-color: #fef5c8; /* Cor do fundo combinando */
+        border: 2px solid #2c6b74;
+        border-radius: 8px;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu li {
+        padding: 12px;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+    }
+
+    .menu li:last-child {
+        border-bottom: none;
+    }
+
+    .menu a {
+        color: #013750; /* Azul escuro para contraste */
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .menu a:hover {
+        color: #d55d63; /* Rosa para destaque ao passar o mouse */
+    }
+}
